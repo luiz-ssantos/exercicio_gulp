@@ -1,0 +1,28 @@
+{
+  "name": "exercicio_gulp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "gulp-clean-css": "^4.3.0",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "gulp": "^4.0.2",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^11.0.1",
+    "sass": "^1.77.8"
+  }
+}

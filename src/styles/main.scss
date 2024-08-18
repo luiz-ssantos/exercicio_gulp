@@ -1,0 +1,21 @@
+@use "variaveis";
+
+header {
+  background-color: variaveis.$corCabecalho;
+  transition: background-color 0.3s;
+  height: 20vh;
+}
+
+header.hovered {
+  background-color: variaveis.$corCabecalhoAlternativa;
+}
+
+main {
+  background-color: variaveis.$corCorpo;
+  height: 70vh;
+}
+
+footer {
+  background-color: variaveis.$corRodaPe;
+  height: 10vh;
+}
